@@ -22,8 +22,8 @@ const modulesList = [
 ];
 
 // NOTE: desired width and height should be multiple of 4
-const desiredWidth = 1120;
-const desiredHeight = 524;
+const desiredWidth = 1080;
+const desiredHeight = 1080;
 
 export const fps = {
   cam: 0,

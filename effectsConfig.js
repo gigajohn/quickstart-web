@@ -1,48 +1,68 @@
 export const effectsList = {
-  ar_games: {
-    label: "AR Games",
-    categories: {
-      flappy_plane: {
-        label: "Flappy Plane",
-        effects: [{ name: "FlappyPlane_mouth.zip" }],
-      },
-      what_animal_are_you: {
-        label: "What Animal Are You",
-        effects: [{ name: "What_Animal_Are_You.zip", control: "game" }],
-      },
-    },
-  },
+  // ar_games: {
+  //   label: "AR Games",
+  //   categories: {
+  //     flappy_plane: {
+  //       label: "Flappy Plane",
+  //       effects: [{ name: "FlappyPlane_mouth.zip" }],
+  //     },
+  //     what_animal_are_you: {
+  //       label: "What Animal Are You",
+  //       effects: [{ name: "What_Animal_Are_You.zip", control: "game" }],
+  //     },
+  //   },
+  // },
 
-  ar_videocall: {
-    label: "AR VideoCall",
+  // ar_videocall: {
+  //   label: "AR VideoCall",
+  //   categories: {
+  //     background_separation: {
+  //       label: "Background separation",
+  //       effects: [
+  //         { name: "Regular_blur.zip", icon: "Regular_blur.png" },
+  //         { name: "video_BG_RainyCafe.zip", icon: "video_BG_RainyCafe.png" },
+  //       ],
+  //     },
+  //     beauty_filter: {
+  //       label: "Beauty Filter",
+  //       effects: [
+  //         { name: "dialect.zip", icon: "dialect.png" },
+  //         { name: "WhooshBeautyFemale.zip", icon: "WhooshBeautyFemale.png" },
+  //       ],
+  //     },
+  //     lightning_color_correction: {
+  //       label: "Lightning and Color correction",
+  //       effects: [{ name: "Sunset.zip" }],
+  //     },
+  //   },
+  // },
+
+  // avatar: {
+  //   label: "Avatar",
+  //   categories: {
+  //     hades: {
+  //       label: "Hades",
+  //       effects: [{ name: "Hades.zip" }],
+  //     },
+  //   },
+  // },
+  
+  
+  //research tab
+  research: {
+    label: "Research",
     categories: {
-      background_separation: {
-        label: "Background separation",
+      research: {
+        label: "Simple Makeup", //TODO
         effects: [
-          { name: "Regular_blur.zip", icon: "Regular_blur.png" },
-          { name: "video_BG_RainyCafe.zip", icon: "video_BG_RainyCafe.png" },
+          { name: "" },
         ],
       },
-      beauty_filter: {
-        label: "Beauty Filter",
+      research2: {
+        label: "Extreme Makeup", //TODO
         effects: [
-          { name: "dialect.zip", icon: "dialect.png" },
-          { name: "WhooshBeautyFemale.zip", icon: "WhooshBeautyFemale.png" },
+          { name: "" },
         ],
-      },
-      lightning_color_correction: {
-        label: "Lightning and Color correction",
-        effects: [{ name: "Sunset.zip" }],
-      },
-    },
-  },
-
-  avatar: {
-    label: "Avatar",
-    categories: {
-      hades: {
-        label: "Hades",
-        effects: [{ name: "Hades.zip" }],
       },
     },
   },
@@ -394,100 +414,100 @@ export const effectsList = {
     },
   },
 
-  face_masks: {
-    label: "Face Masks",
-    categories: {
-      animation: {
-        label: "Animation",
-        effects: [{ name: "Spider2.zip" }],
-      },
-      foreground_effects: {
-        label: "Foreground effects",
-        effects: [{ name: "Retrowave.zip" }],
-      },
-      masks_morphing: {
-        label: "Masks with Morphing",
-        effects: [{ name: "TrollGrandma.zip" }],
-      },
-      multiple_face_detection: {
-        label: "Multiple Face Detection",
-        effects: [{ name: "MinnieMouse7_multi.zip" }],
-      },
-      physics: {
-        label: "Physics",
-        effects: [{ name: "ConfusedRabbit.zip" }],
-      },
-      triggers: {
-        label: "Triggers",
-        effects: [
-          {
-            name: "Gangster.zip",
-            control: "trigger",
-            params: ["GetMouthStatus()"],
-            tip: "Open your mouth",
-            icon: "Gangster.svg",
-          },
-        ],
-      },
-    },
-  },
+  // face_masks: {
+  //   label: "Face Masks",
+  //   categories: {
+  //     animation: {
+  //       label: "Animation",
+  //       effects: [{ name: "Spider2.zip" }],
+  //     },
+  //     foreground_effects: {
+  //       label: "Foreground effects",
+  //       effects: [{ name: "Retrowave.zip" }],
+  //     },
+  //     masks_morphing: {
+  //       label: "Masks with Morphing",
+  //       effects: [{ name: "TrollGrandma.zip" }],
+  //     },
+  //     multiple_face_detection: {
+  //       label: "Multiple Face Detection",
+  //       effects: [{ name: "MinnieMouse7_multi.zip" }],
+  //     },
+  //     physics: {
+  //       label: "Physics",
+  //       effects: [{ name: "ConfusedRabbit.zip" }],
+  //     },
+  //     triggers: {
+  //       label: "Triggers",
+  //       effects: [
+  //         {
+  //           name: "Gangster.zip",
+  //           control: "trigger",
+  //           params: ["GetMouthStatus()"],
+  //           tip: "Open your mouth",
+  //           icon: "Gangster.svg",
+  //         },
+  //       ],
+  //     },
+  //   },
+  // },
 
-  hand_tracking: {
-    label: "Hand Tracking",
-    categories: {
-      gestures_detection: {
-        label: "Gestures Detection",
-        effects: [
-          {
-            name: "Detection_gestures.zip",
-            control: "analyze",
-            params: ["getGesture()"],
-          },
-        ],
-      },
-      rings_try_on: {
-        label: "Rings try on",
-        effects: [{ name: "Ring_01.zip" }],
-      },
-    },
-  },
+  // hand_tracking: {
+  //   label: "Hand Tracking",
+  //   categories: {
+  //     gestures_detection: {
+  //       label: "Gestures Detection",
+  //       effects: [
+  //         {
+  //           name: "Detection_gestures.zip",
+  //           control: "analyze",
+  //           params: ["getGesture()"],
+  //         },
+  //       ],
+  //     },
+  //     rings_try_on: {
+  //       label: "Rings try on",
+  //       effects: [{ name: "Ring_01.zip" }],
+  //     },
+  //   },
+  // },
 
-  virtual_try_on: {
-    label: "Virtual Try On",
-    categories: {
-      glasses_try_on: {
-        label: "Glasses Try On",
-        effects: [
-          { name: "Eye_lenses_Blue.zip", icon: "Eye_lenses_Blue.png" },
-          { name: "Eye_lenses_Green.zip", icon: "Eye_lenses_Green.png" },
-          { name: "glasses_RayBan4165_Dark.zip", icon: "Glasses_Dark.png" },
-        ],
-      },
-      hair: {
-        label: "Hair Coloring",
-        effects: [
-          { name: "VTO_Hair_blue.zip", icon: "VTO_Hair_blue.png" },
-          { name: "VTO_Hair_green.zip", icon: "VTO_Hair_green.png" },
-          { name: "VTO_Hair_strand.zip", icon: "VTO_Hair_strand.png" },
-        ],
-      },
-      head_wearings: {
-        label: "Head wearings",
-        effects: [{ name: "VTO_Headdresse_01.zip" }],
-      },
-      jewelry: {
-        label: "Jewelry",
-        effects: [
-          { name: "earrings_01.zip", icon: "earrings_01.png" },
-          { name: "necklace_01.zip", icon: "necklace_01.png" },
-        ],
-      },
-      makeup: {
-        label: "Makeup",
-        effects: [{ name: "Low_look_clubs.zip" }],
-      },
-    },
-  },
+  // virtual_try_on: {
+  //   label: "Virtual Try On",
+  //   categories: {
+  //     glasses_try_on: {
+  //       label: "Glasses Try On",
+  //       effects: [
+  //         { name: "Eye_lenses_Blue.zip", icon: "Eye_lenses_Blue.png" },
+  //         { name: "Eye_lenses_Green.zip", icon: "Eye_lenses_Green.png" },
+  //         { name: "glasses_RayBan4165_Dark.zip", icon: "Glasses_Dark.png" },
+  //       ],
+  //     },
+  //     hair: {
+  //       label: "Hair Coloring",
+  //       effects: [
+  //         { name: "VTO_Hair_blue.zip", icon: "VTO_Hair_blue.png" },
+  //         { name: "VTO_Hair_green.zip", icon: "VTO_Hair_green.png" },
+  //         { name: "VTO_Hair_strand.zip", icon: "VTO_Hair_strand.png" },
+  //       ],
+  //     },
+  //     head_wearings: {
+  //       label: "Head wearings",
+  //       effects: [{ name: "VTO_Headdresse_01.zip" }],
+  //     },
+  //     jewelry: {
+  //       label: "Jewelry",
+  //       effects: [
+  //         { name: "earrings_01.zip", icon: "earrings_01.png" },
+  //         { name: "necklace_01.zip", icon: "necklace_01.png" },
+  //       ],
+  //     },
+  //     makeup: {
+  //       label: "Makeup",
+  //       effects: [{ name: "Low_look_clubs.zip" }],
+  //     },
+  //   },
+  // },
 
   import: {
     label: "Imported",

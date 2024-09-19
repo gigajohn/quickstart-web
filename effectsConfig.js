@@ -55,13 +55,13 @@ export const effectsList = {
       research: {
         label: "Simple Makeup", //TODO
         effects: [
-          { name: "" },
+          { name: "Makeup50.zip" },
         ],
       },
       research2: {
         label: "Extreme Makeup", //TODO
         effects: [
-          { name: "" },
+          { name: "Makeup100.zip" },
         ],
       },
     },

@@ -67,6 +67,8 @@ export const effectsList = {
     },
   },
 
+  
+
   beauty_touch_up: {
     label: "Beauty Touch UP",
     categories: {
@@ -509,8 +511,8 @@ export const effectsList = {
   //   },
   // },
 
-  import: {
-    label: "Imported",
-    effects: [],
-  },
+  // import: {
+  //   label: "Imported",
+  //   effects: [],
+  // },
 };
